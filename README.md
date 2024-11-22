@@ -5,34 +5,83 @@ merchants who want to simplify the process of navigating complex and custom prod
 
 ## Features
 
-- **Integrated Product Links:** Adds "View in Store" (frontend) and "Edit" (admin) links to the following grids and
-  modals:
+- **Integrated Product Links:** Adds "View in Store" (frontend) and "Edit" (admin) links to the following grids and modals:
     - Bundle items grid and selection modal
 
-      | ![Bundle Items Grid](.github/screenshots/bundle_selections_tab.png) | ![Bundle Items Selection Modal](.github/screenshots/bundle_selections_modal.png) |
-                |:--------------------------------------------------------------:|:--------------------------------------------------------------------------------:|
-      |                     **Bundle Items Grid**                      |                         **Bundle Items Selection Modal**                         |
+      <div align="center">
+        <table>
+          <tr>
+            <td style="text-align:center;">
+              <img src=".github/screenshots/bundle_selections_tab.png" alt="Bundle Items Grid" width="400">
+              <div><strong>Bundle Items Grid</strong></div>
+            </td>
+            <td style="text-align:center;">
+              <img src=".github/screenshots/bundle_selections_modal.png" alt="Bundle Items Selection Modal" width="400">
+              <div><strong>Bundle Items Selection Modal</strong></div>
+            </td>
+          </tr>
+        </table>
+      </div>
 
     - Configurable items and selection modal
 
-      | ![Configurable Items Grid](.github/screenshots/configurable_selections_tab.png) | ![Configurable Items Selection Modal](.github/screenshots/configurable_selections_modal.png) |
-                    |:-------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------:|
-      |                            **Configurable Items Grid**                            |                            **Configurable Items Selection Modal**                            |
+      <div align="center">
+        <table>
+          <tr>
+            <td style="text-align:center;">
+              <img src=".github/screenshots/configurable_selections_tab.png" alt="Configurable Items Grid" width="400">
+              <div><strong>Configurable Items Grid</strong></div>
+            </td>
+            <td style="text-align:center;">
+              <img src=".github/screenshots/configurable_selections_modal.png" alt="Configurable Items Selection Modal" width="400">
+              <div><strong>Configurable Items Selection Modal</strong></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+
     - Related, Cross-sell, and Up-sell products and selection modal
 
-      | ![Related Products Grid](.github/screenshots/related_grid.png) | ![Related Products Modal](.github/screenshots/related_grid_modal.png) |
-                |:-------------------------------------------------------------:|:---------------------------------------------------------------------:|
-      | **Related Products Grid**                                     | **Related Products Modal**                                           |
+      <div align="center">
+        <table>
+          <tr>
+            <td style="text-align:center;">
+              <img src=".github/screenshots/related_grid.png" alt="Related Products Grid" width="400">
+              <div><strong>Related Products Grid</strong></div>
+            </td>
+            <td style="text-align:center;">
+              <img src=".github/screenshots/related_grid_modal.png" alt="Related Products Modal" width="400">
+              <div><strong>Related Products Modal</strong></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+
     - Product grid
 
-      | ![Product Grid](.github/screenshots/product_grid.png) |
-          |:----------------------------------------------------:|
-      |                **Product Grid**                     |
+      <div align="center">
+        <table>
+          <tr>
+            <td style="text-align:center;">
+              <img src=".github/screenshots/product_grid.png" alt="Product Grid" width="400">
+              <div><strong>Product Grid</strong></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+
 - **Parent Products Tab:** Lists all the parent products of the product you are currently editing.
 
-  | ![Parent Products Tab](.github/screenshots/parent_products_tab.png) |
-  |:------------------------------------------------------------------:|
-  |                **Parent Products Tab**                            |
+  <div align="center">
+    <table>
+      <tr>
+        <td style="text-align:center;">
+          <img src=".github/screenshots/parent_products_tab.png" alt="Parent Products Tab" width="400">
+          <div><strong>Parent Products Tab</strong></div>
+        </td>
+      </tr>
+    </table>
+  </div>
 
 ## Installation
 
