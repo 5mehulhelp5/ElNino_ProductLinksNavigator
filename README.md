@@ -57,7 +57,7 @@ merchants who want to simplify the process of navigating complex and custom prod
       <table align="center">
         <tr>
           <td align="center">
-            <img src=".github/screenshots/product_grid.png" alt="Product Grid" width="400"/><br>
+            <img src=".github/screenshots/product_grid.png" alt="Product Grid" width="800"/><br>
             <strong>Product Grid</strong>
           </td>
         </tr>
@@ -68,7 +68,7 @@ merchants who want to simplify the process of navigating complex and custom prod
   <table align="center">
     <tr>
       <td align="center">
-        <img src=".github/screenshots/parent_products_tab.png" alt="Parent Products Tab" width="400"/><br>
+        <img src=".github/screenshots/parent_products_tab.png" alt="Parent Products Tab" width="800"/><br>
         <strong>Parent Products Tab</strong>
       </td>
     </tr>
