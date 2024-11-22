@@ -9,9 +9,20 @@
 **ProductLinksNavigator** is a Magento 2 extension for enhanced admin product navigation. It is especially useful for
 merchants who want to simplify the process of navigating complex and custom product relationships.
 
+## Installation
+
+Install via Composer:
+
+```bash
+composer require elnino/product-links-navigator
+bin/magento module:enable ElNino_ProductLinksNavigator
+bin/magento setup:upgrade
+bin/magento cache:clean
+```
+
 ## Features
 
-- **Integrated Product Links:** Adds "View in Store" (frontend) and "Edit" (admin) links to the following grids and modals:
+- **Integrated Product Links:** Adds "View in Store" (frontend, only for visible in store products) and "Edit" (admin) links to the following grids and modals:
 
     - Bundle items grid and selection modal:
 
@@ -80,16 +91,9 @@ merchants who want to simplify the process of navigating complex and custom prod
     </tr>
   </table>
 
-## Installation
-
-Install via Composer:
-
-```bash
-composer require elnino/product-links-navigator
-bin/magento module:enable ElNino_ProductLinksNavigator
-bin/magento setup:upgrade
-bin/magento cache:clean
-```
+## Planned Features
+- [ ] Add links to Grouped products grid and selection modal
+- [ ] Add unit and integration testing
 
 ## Customisation
 
@@ -119,11 +123,9 @@ product type that serves as a parent, you can modify the implementation of paren
 `\ElNino\ProductLinksNavigator\Helper\ParentProductHelper::getParentProducts`.
 
 ## Compatibility
-
-**ProductLinksNavigator** is compatible with:
-
 - Magento 2.4.x and later
-Hyvä Theme
+- PHP >=7.4
+- Hyvä Theme
 
 ## License
 
