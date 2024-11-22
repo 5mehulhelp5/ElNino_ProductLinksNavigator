@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!--
+  ~ Copyright (c) 2024.
+  ~ Released under the MIT License.
+  ~
+  ~ This file is part of the El Niño BV open-source project (https://elnino.tech/).
+  ~ Source code is available at https://github.com/elninotech.
+  ~
+  ~ You may freely use, modify, and distribute this file in accordance with the terms of the MIT License.
+  ~
+  -->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <virtualType name="Magento\Catalog\Ui\DataProvider\Product\Form\Modifier\Pool">
+        <arguments>
+            <argument name="modifiers" xsi:type="array">
+                <item name="relatedProductLinks" xsi:type="array">
+                    <item name="class" xsi:type="string">ElNino\ProductLinksNavigator\Ui\DataProvider\Product\Form\Modifier\RelatedProductLinks</item>
+                    <item name="sortOrder" xsi:type="number">200</item>
+                </item>
+                <item name="bundleProductLinksComposite" xsi:type="array">
+                    <item name="class" xsi:type="string">ElNino\ProductLinksNavigator\Ui\DataProvider\Product\Form\Modifier\BundleProductLinksComposite</item>
+                    <item name="sortOrder" xsi:type="number">200</item>
+                </item>
+            </argument>
+        </arguments>
+    </virtualType>
+
+    <type name="Magento\Bundle\Ui\DataProvider\Product\Form\Modifier\Composite">
+        <arguments>
+            <argument name="modifiers" xsi:type="array">
+                <item name="bundleProductLinks" xsi:type="string">ElNino\ProductLinksNavigator\Ui\DataProvider\Product\Form\Modifier\BundleProductLinks</item>
+            </argument>
+        </arguments>
+    </type>
+
+    <type name="Magento\ConfigurableProduct\Ui\DataProvider\Product\Form\Modifier\Composite">
+        <arguments>
+            <argument name="modifiers" xsi:type="array">
+                <item name="configurableProductLinks" xsi:type="string">ElNino\ProductLinksNavigator\Ui\DataProvider\Product\Form\Modifier\ConfigurableProductLinks</item>
+            </argument>
+        </arguments>
+    </type>
+
+    <type name="ElNino\ProductLinksNavigator\Ui\DataProvider\Product\Form\Modifier\RelatedProductLinks">
+        <arguments>
+            <argument name="dataScopeArray" xsi:type="array">
+                <item name="0" xsi:type="string">related</item>
+                <item name="1" xsi:type="string">crosssell</item>
+                <item name="2" xsi:type="string">upsell</item>
+            </argument>
+        </arguments>
+    </type>
+</config>

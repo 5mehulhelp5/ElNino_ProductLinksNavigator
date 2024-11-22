@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+  ~ Copyright (c) 2024.
+  ~ Released under the MIT License.
+  ~
+  ~ This file is part of the El Niño BV open-source project (https://elnino.tech/).
+  ~ Source code is available at https://github.com/elninotech.
+  ~
+  ~ You may freely use, modify, and distribute this file in accordance with the terms of the MIT License.
+  ~
+  -->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="ElNino_ProductLinksNavigator">
+        <sequence>
+            <module name="Magento_Catalog"/>
+        </sequence>
+    </module>
+</config>

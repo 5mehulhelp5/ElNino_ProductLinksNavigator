@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (c) 2024.
+  ~ Released under the MIT License.
+  ~
+  ~ This file is part of the El Niño BV open-source project (https://elnino.tech/).
+  ~ Source code is available at https://github.com/elninotech.
+  ~
+  ~ You may freely use, modify, and distribute this file in accordance with the terms of the MIT License.
+  ~
+  -->
+
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <columns name="product_columns" class="Magento\Catalog\Ui\Component\Listing\Columns">
+        <column name="name" sortOrder="30" class="ElNino\ProductLinksNavigator\Ui\Component\Listing\Column\ProductLinks">
+            <settings>
+                <addField>true</addField>
+                <filter>text</filter>
+                <label translate="true">Name</label>
+                <bodyTmpl>ui/grid/cells/html</bodyTmpl>
+            </settings>
+        </column>
+    </columns>
+</listing>

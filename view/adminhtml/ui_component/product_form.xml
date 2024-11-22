@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!--
+  ~ Copyright (c) 2024.
+  ~ Released under the MIT License.
+  ~
+  ~ This file is part of the El Niño BV open-source project (https://elnino.tech/).
+  ~ Source code is available at https://github.com/elninotech.
+  ~
+  ~ You may freely use, modify, and distribute this file in accordance with the terms of the MIT License.
+  ~
+  -->
+
+<form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <fieldset name="parent_products_tab">
+        <argument name="data" xsi:type="array">
+            <item name="config" xsi:type="array">
+                <item name="label" xsi:type="string" translate="true">Parent Products</item>
+                <item name="collapsible" xsi:type="boolean">true</item>
+                <item name="sortOrder" xsi:type="number">100</item>
+            </item>
+        </argument>
+        <container name="parent_products_container">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="sortOrder" xsi:type="number">10</item>
+                </item>
+            </argument>
+            <htmlContent name="parent_products_html">
+                <argument name="block" xsi:type="object">ElNino\ProductLinksNavigator\Block\Adminhtml\Catalog\Product\Edit\Tab\ParentProducts</argument>
+            </htmlContent>
+        </container>
+    </fieldset>
+</form>

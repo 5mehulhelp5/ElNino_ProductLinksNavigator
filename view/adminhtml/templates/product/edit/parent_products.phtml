@@ -1,0 +1,51 @@
+<?php $parentProducts = $block->getParentProducts(); ?>
+<?php if (!empty($parentProducts)): ?>
+    <div class="admin__fieldset">
+        <div class="admin__data-grid-wrap">
+            <table class="data-grid data-grid-parent-products">
+                <thead class="data-grid-thead">
+                <tr class="data-grid-row">
+                    <th class="data-grid-th" scope="col">
+                        <span><?= __('ID') ?></span>
+                    </th>
+                    <th class="data-grid-th" scope="col">
+                        <span><?= __('SKU') ?></span>
+                    </th>
+                    <th class="data-grid-th" scope="col">
+                        <span><?= __('Name') ?></span>
+                    </th>
+                    <th class="data-grid-th" scope="col">
+                        <span><?= __('Type') ?></span>
+                    </th>
+                    <th class="data-grid-th" scope="col">
+                        <span><?= __('Status') ?></span>
+                    </th>
+                </tr>
+                </thead>
+                <tbody class="data-grid-tbody">
+                <?php foreach ($parentProducts as $parent): ?>
+                    <tr class="data-row">
+                        <td class="data-grid-cell" data-th="<?= __('ID') ?>">
+                            <span><?= $parent->getId() ?></span>
+                        </td>
+                        <td class="data-grid-cell" data-th="<?= __('SKU') ?>">
+                            <span><?= $parent->getSku() ?></span>
+                        </td>
+                        <td class="data-grid-cell" data-th="<?= __('Name') ?>">
+                            <span><?= $block->getProductLinksHtml($parent) ?></span>
+                        </td>
+                        <td class="data-grid-cell" data-th="<?= __('Type') ?>">
+                            <span><?= ucfirst($parent->getTypeId()) ?></span>
+                        </td>
+                        <td class="data-grid-cell" data-th="<?= __('Status') ?>">
+                            <span><?= $block->getStatusText($parent->getStatus()) ?></span>
+                        </td>
+                    </tr>
+                <?php endforeach; ?>
+                </tbody>
+            </table>
+        </div>
+    </div>
+<?php else: ?>
+    <p class="admin__field-note"><?= __('No parent products found for this item.') ?></p>
+<?php endif; ?>
