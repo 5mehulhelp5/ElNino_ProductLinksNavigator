@@ -1,5 +1,11 @@
 # ProductLinksNavigator
 
+![Packagist Version](https://img.shields.io/packagist/v/elnino/product-links-navigator)
+![Magento 2 Compatible](https://img.shields.io/badge/Magento-2.4%2B-blue)
+![License](https://img.shields.io/github/license/elninotech/product-links-navigator)
+![Downloads](https://img.shields.io/packagist/dt/elnino/product-links-navigator)
+![Hyvä Compatible](https://img.shields.io/badge/Hyvä-Compatible-brightgreen)
+
 **ProductLinksNavigator** is a Magento 2 extension for enhanced admin product navigation. It is especially useful for
 merchants who want to simplify the process of navigating complex and custom product relationships.
 
@@ -111,6 +117,13 @@ the data scopes array in your custom module `di.xml`:
 The module currently lists all the existing parents of Configurable, Grouped and Bundle types. If you have a custom
 product type that serves as a parent, you can modify the implementation of parent product retrieval in
 `\ElNino\ProductLinksNavigator\Helper\ParentProductHelper::getParentProducts`.
+
+## Compatibility
+
+**ProductLinksNavigator** is compatible with:
+
+- Magento 2.4.x and later
+Hyvä Theme
 
 ## License
 
