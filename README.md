@@ -94,6 +94,7 @@ bin/magento cache:clean
 ## Planned Features
 - [ ] Add links to Grouped products grid and selection modal
 - [ ] Add unit and integration testing
+- [ ] Add links to Sales views (Order, Invoice etc.) products grid
 
 ## Customisation
 
