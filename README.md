@@ -100,7 +100,7 @@ bin/magento cache:clean
 ### Adding links to custom product relation grid/modal
 
 If you have a custom product relation set up, you can allow adding the links for this relation's grid and modal. Extend
-the data scopes array in your custom module `di.xml`:
+the data scopes array in your custom module `adminhtml\di.xml`:
 
 ```xml
 
@@ -120,7 +120,7 @@ the data scopes array in your custom module `di.xml`:
 
 The module currently lists all the existing parents of Configurable, Grouped and Bundle types. If you have a custom
 product type that serves as a parent, you can modify the implementation of parent product retrieval in
-`\ElNino\ProductLinksNavigator\Helper\ParentProductHelper::getParentProducts`.
+`\ElNino\ProductLinksNavigator\Helper\ParentProductHelper::getParentProducts` with a plugin.
 
 ## Compatibility
 - Magento 2.4.x and later
