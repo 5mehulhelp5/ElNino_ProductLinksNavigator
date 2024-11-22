@@ -6,78 +6,79 @@ merchants who want to simplify the process of navigating complex and custom prod
 ## Features
 
 - **Integrated Product Links:** Adds "View in Store" (frontend) and "Edit" (admin) links to the following grids and modals:
-    - Bundle items grid and selection modal
+
+    - Bundle items grid and selection modal:
 
       <div align="center">
         <table>
           <tr>
-            <td style="text-align:center;">
+            <td>
               <img src=".github/screenshots/bundle_selections_tab.png" alt="Bundle Items Grid" width="400">
-              <div><strong>Bundle Items Grid</strong></div>
+              <div style="text-align:center; font-weight:bold;">Bundle Items Grid</div>
             </td>
-            <td style="text-align:center;">
+            <td>
               <img src=".github/screenshots/bundle_selections_modal.png" alt="Bundle Items Selection Modal" width="400">
-              <div><strong>Bundle Items Selection Modal</strong></div>
+              <div style="text-align:center; font-weight:bold;">Bundle Items Selection Modal</div>
             </td>
           </tr>
         </table>
       </div>
 
-    - Configurable items and selection modal
+    - Configurable items grid and selection modal:
 
       <div align="center">
         <table>
           <tr>
-            <td style="text-align:center;">
+            <td>
               <img src=".github/screenshots/configurable_selections_tab.png" alt="Configurable Items Grid" width="400">
-              <div><strong>Configurable Items Grid</strong></div>
+              <div style="text-align:center; font-weight:bold;">Configurable Items Grid</div>
             </td>
-            <td style="text-align:center;">
+            <td>
               <img src=".github/screenshots/configurable_selections_modal.png" alt="Configurable Items Selection Modal" width="400">
-              <div><strong>Configurable Items Selection Modal</strong></div>
+              <div style="text-align:center; font-weight:bold;">Configurable Items Selection Modal</div>
             </td>
           </tr>
         </table>
       </div>
 
-    - Related, Cross-sell, and Up-sell products and selection modal
+    - Related, Cross-sell, and Up-sell products and selection modal:
 
       <div align="center">
         <table>
           <tr>
-            <td style="text-align:center;">
+            <td>
               <img src=".github/screenshots/related_grid.png" alt="Related Products Grid" width="400">
-              <div><strong>Related Products Grid</strong></div>
+              <div style="text-align:center; font-weight:bold;">Related Products Grid</div>
             </td>
-            <td style="text-align:center;">
+            <td>
               <img src=".github/screenshots/related_grid_modal.png" alt="Related Products Modal" width="400">
-              <div><strong>Related Products Modal</strong></div>
+              <div style="text-align:center; font-weight:bold;">Related Products Modal</div>
             </td>
           </tr>
         </table>
       </div>
 
-    - Product grid
+    - Product grid:
 
       <div align="center">
         <table>
           <tr>
-            <td style="text-align:center;">
+            <td>
               <img src=".github/screenshots/product_grid.png" alt="Product Grid" width="400">
-              <div><strong>Product Grid</strong></div>
+              <div style="text-align:center; font-weight:bold;">Product Grid</div>
             </td>
           </tr>
         </table>
       </div>
 
-- **Parent Products Tab:** Lists all the parent products of the product you are currently editing.
+- **Parent Products Tab:** Lists all the parent products of the product you are currently editing:
 
   <div align="center">
     <table>
       <tr>
-        <td style="text-align:center;">
+        <td>
           <img src=".github/screenshots/parent_products_tab.png" alt="Parent Products Tab" width="400">
-          <div><strong>Parent Products Tab</strong></div>
+          <div style="text-align:center; font-weight:bold;">Parent Products Tab</div>
         </td>
       </tr>
     </table>
