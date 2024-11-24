@@ -1,9 +1,9 @@
 # ProductLinksNavigator
 
-![Packagist Version](https://img.shields.io/packagist/v/elnino/ElNino_ProductLinksNavigator)
+![Packagist Version](https://img.shields.io/packagist/v/elnino/product-links-navigator)
 ![Magento 2 Compatible](https://img.shields.io/badge/Magento-2.4%2B-blue)
 ![License](https://img.shields.io/github/license/elninotech/ElNino_ProductLinksNavigator)
-![Downloads](https://img.shields.io/packagist/dt/elninotech/ElNino_ProductLinksNavigator)
+![Downloads](https://img.shields.io/packagist/dt/elnino/product-links-navigator)
 ![Hyvä Compatible](https://img.shields.io/badge/Hyvä-Compatible-brightgreen)
 
 **ProductLinksNavigator** is a Magento 2 extension for enhanced admin product navigation. It is especially useful for
