@@ -53,7 +53,7 @@ class ParentProducts extends Template
     public function getParentProducts(): array
     {
         $product = $this->getProduct();
-        if (!$product) {
+        if (!$product->getId()) {
             return [];
         }
 
