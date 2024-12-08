@@ -2,7 +2,6 @@
     "name": "elnino/product-links-navigator",
     "description": "Magento 2 extension for improved admin product navigation with parent product links and relation links in modals and tables.",
     "type": "magento2-module",
-    "version": "1.0.0",
     "license": "MIT",
     "authors": [
         {
