@@ -22,7 +22,7 @@ bin/magento cache:clean
 
 ## Features
 
-- **Integrated Product Links:** Adds "View in Store" (frontend, only for visible in store products, in selected scope) and "Edit" (admin) links to the following grids and modals:
+- **Integrated Product Links:** Adds "View in Store" (frontend) links dropdown that navigates to all frontend store views where product is enabled and visible. Adds "Edit" (admin) link:
 
     - Bundle items grid and selection modal:
 
