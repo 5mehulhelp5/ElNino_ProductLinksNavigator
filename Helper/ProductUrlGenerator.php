@@ -85,10 +85,10 @@ class ProductUrlGenerator
 
             foreach ($storeNames as $storeId => $storeName) {
                 try {
-                    $product->setStoreId($storeId);
+                    $scopedProduct = $this->productRepository->getById($productId, false, $storeId);
 
-                    if ($this->isProductValidInStore($product)) {
-                        $frontendUrls[$storeName] = $product->getProductUrl();
+                    if ($this->isProductValidInStore($scopedProduct)) {
+                        $frontendUrls[$storeName] = $scopedProduct->getProductUrl();
                     }
                 } catch (NoSuchEntityException $e) {
                     continue;
