@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [1.1.1] - 2024-12-05
+### Fixed
+- **Product URL generation**:
+  - Updated logic to fetch URLs for scoped products in each store to ensure the correct frontend URLs are retrieved for enabled and visible products.
+
 ## [1.1.0] - 2024-12-05
 ### Added
 - Support for displaying multiple frontend links for products in all assigned stores.
