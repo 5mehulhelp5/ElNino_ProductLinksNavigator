@@ -22,74 +22,59 @@ bin/magento cache:clean
 
 ## Features
 
-- **Integrated Product Links:** Adds "View in Store" (frontend) links dropdown that navigates to all frontend store views where product is enabled and visible. Adds "Edit" (admin) link:
+### Integrated Product Links
+Adds "View in Store" (frontend) links dropdown that navigates to all frontend store views where product is enabled and visible. Adds "Edit" (admin) link.
 
-    - Bundle items grid and selection modal:
 
-      <table align="center">
-        <tr>
-          <td align="center">
-            <img src=".github/screenshots/bundle_selections_tab.png" alt="Bundle Items Grid" width="400"/><br>
-            <strong>Bundle Items Grid</strong>
-          </td>
-          <td align="center">
-            <img src=".github/screenshots/bundle_selections_modal.png" alt="Bundle Items Selection Modal" width="400"/><br>
-            <strong>Bundle Items Selection Modal</strong>
-          </td>
-        </tr>
-      </table>
+<div style="text-align:center;">
+    <img src=".github/screenshots/integrated_links.png" alt="Integrated Links Example" style="width:250px;"/>
+</div>
 
-    - Configurable items grid and selection modal:
+#### Integrated
+<details>
+<summary><strong>Bundle Items Grid and Selection Modal</strong></summary>
 
-      <table align="center">
-        <tr>
-          <td align="center">
-            <img src=".github/screenshots/configurable_selections_tab.png" alt="Configurable Items Grid" width="400"/><br>
-            <strong>Configurable Items Grid</strong>
-          </td>
-          <td align="center">
-            <img src=".github/screenshots/configurable_selections_modal.png" alt="Configurable Items Selection Modal" width="400"/><br>
-            <strong>Configurable Items Selection Modal</strong>
-          </td>
-        </tr>
-      </table>
+#### Bundle Items Grid
+<img src=".github/screenshots/bundle_selections_tab.png" alt="Bundle Items Grid" style="width:100%;"/>
 
-    - Related, Cross-sell, and Up-sell products and selection modal:
+#### Bundle Items Selection Modal
+<img src=".github/screenshots/bundle_selections_modal.png" alt="Bundle Items Selection Modal" style="width:100%;"/>
+</details>
 
-      <table align="center">
-        <tr>
-          <td align="center">
-            <img src=".github/screenshots/related_grid.png" alt="Related Products Grid" width="400"/><br>
-            <strong>Related Products Grid</strong>
-          </td>
-          <td align="center">
-            <img src=".github/screenshots/related_grid_modal.png" alt="Related Products Modal" width="400"/><br>
-            <strong>Related Products Modal</strong>
-          </td>
-        </tr>
-      </table>
+<details>
+<summary><strong>Configurable Items Grid and Selection Modal</strong></summary>
 
-    - Product grid:
+#### Configurable Items Grid
+<img src=".github/screenshots/configurable_selections_tab.png" alt="Configurable Items Grid" style="width:100%;"/>
 
-      <table align="center">
-        <tr>
-          <td align="center">
-            <img src=".github/screenshots/product_grid.png" alt="Product Grid" width="800"/><br>
-            <strong>Product Grid</strong>
-          </td>
-        </tr>
-      </table>
+#### Configurable Items Selection Modal
+<img src=".github/screenshots/configurable_selections_modal.png" alt="Configurable Items Selection Modal" style="width:100%;"/>
 
-- **Parent Products Tab:** Lists all the parent products of the product you are currently editing:
+</details>
+<details>
+<summary><strong>Related, Cross-sell, and Up-sell Products</strong></summary>
 
-  <table align="center">
-    <tr>
-      <td align="center">
-        <img src=".github/screenshots/parent_products_tab.png" alt="Parent Products Tab" width="800"/><br>
-        <strong>Parent Products Tab</strong>
-      </td>
-    </tr>
-  </table>
+#### Related Products Grid
+<img src=".github/screenshots/related_grid.png" alt="Related Products Grid" style="width:100%;"/>
+
+#### Related Products Modal
+<img src=".github/screenshots/related_grid_modal.png" alt="Related Products Modal" style="width:100%;"/>
+
+</details>
+
+<details>
+<summary><strong>Product Grid</strong></summary>
+
+#### Product Grid
+<img src=".github/screenshots/product_grid.png" alt="Product Grid" style="width:100%;"/>
+
+</details>
+
+### Parent Products Tab
+
+Lists all the parent products of the product you are currently editing.
+
+<img src=".github/screenshots/parent_products_tab.png" alt="Parent Products Tab" style="width:100%;"/>
 
 ## Planned Features
 - [ ] Add links to Grouped products grid and selection modal
