@@ -14,7 +14,11 @@
     <columns name="product_columns" class="Magento\Catalog\Ui\Component\Listing\Columns">
         <settings>
             <childDefaults>
-                <item name="disableAction" xsi:type="boolean">true</item>
+                <param name="fieldAction" xsi:type="array">
+                    <item name="params" xsi:type="array">
+                        <item name="0" xsi:type="string">noaction</item>
+                    </item>
+                </param>
             </childDefaults>
         </settings>
         <column name="name" sortOrder="30" class="ElNino\ProductLinksNavigator\Ui\Component\Listing\Column\ProductLinks">
